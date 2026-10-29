@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bc_background">#101827</color>
+    <color name="bc_primary">#F3F7FC</color>
+    <color name="bc_secondary">#9EADC1</color>
+    <color name="bc_accent">#51D5BB</color>
+    <color name="bc_icon_background">#1D3041</color>
+    <color name="bc_divider">#354255</color>
+</resources>

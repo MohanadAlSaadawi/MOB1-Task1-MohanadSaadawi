@@ -1,0 +1,8 @@
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="screen_background">#FFF7F0</color>
+    <color name="text_primary">#211A16</color>
+
+</resources>

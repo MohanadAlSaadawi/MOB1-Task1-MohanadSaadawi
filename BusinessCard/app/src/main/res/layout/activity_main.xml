@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bc_background"
+    android:padding="24dp">
+
+    <!-- Top Header -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="&lt; DEV / PROFILE &gt;"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@color/bc_accent"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2026"
+            android:textSize="14sp"
+            android:textColor="@color/bc_secondary"/>
+    </LinearLayout>
+
+    <!-- Main Profile -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="8dp">
+
+        <TextView
+            android:layout_width="112dp"
+            android:layout_height="112dp"
+            android:gravity="center"
+            android:background="@drawable/bc_logo_bg"
+            android:text="MS"
+            android:textSize="42sp"
+            android:textStyle="bold"
+            android:textColor="@color/bc_accent"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:gravity="center"
+            android:text="Mohanad Alsaadawi"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="@color/bc_primary"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:gravity="center"
+            android:text="SOFTWARE DEVELOPER"
+            android:letterSpacing="0.12"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@color/bc_accent"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="Building thoughtful digital experiences."
+            android:textSize="15sp"
+            android:textColor="@color/bc_secondary"/>
+    </LinearLayout>
+
+    <!-- Divider -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/bc_divider"/>
+
+    <!-- Information -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="22dp"
+        android:paddingBottom="22dp">
+
+        <!-- GitHub -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:paddingBottom="22dp">
+
+            <TextView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@drawable/bc_icon_bg"
+                android:gravity="center"
+                android:text="GH"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textColor="@color/bc_accent"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="GITHUB"
+                    android:textSize="12sp"
+                    android:textColor="@color/bc_secondary"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="Software Projects"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/bc_primary"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Email -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:paddingBottom="22dp">
+
+            <TextView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@drawable/bc_icon_bg"
+                android:gravity="center"
+                android:text="@"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                android:textColor="@color/bc_accent"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="EMAIL"
+                    android:textSize="12sp"
+                    android:textColor="@color/bc_secondary"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="Professional Contact"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/bc_primary"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Specialization -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@drawable/bc_icon_bg"
+                android:gravity="center"
+                android:text="&lt;/&gt;"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:textColor="@color/bc_accent"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="FOCUS"
+                    android:textSize="12sp"
+                    android:textColor="@color/bc_secondary"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="Web &amp; Mobile Development"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/bc_primary"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/bc_divider"/>
+
+    <!-- Footer -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="18dp"
+        android:gravity="center"
+        android:text="DESIGNED WITH ANDROID XML"
+        android:letterSpacing="0.1"
+        android:textSize="11sp"
+        android:textColor="@color/bc_secondary"/>
+
+</LinearLayout>

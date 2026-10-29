@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            android:padding="16dp"
+            android:background="@color/quadrant_one">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Technology"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="@color/quadrant_text"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="Technology has changed the way we live, work, and communicate. New inventions make everyday tasks easier and faster."
+                android:textSize="16sp"
+                android:lineSpacingExtra="5dp"
+                android:justificationMode="inter_word"
+                android:textColor="@color/quadrant_text"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            android:padding="16dp"
+            android:background="@color/quadrant_two">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nature"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="@color/quadrant_text"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="Nature is full of beautiful landscapes, mountains, forests, and oceans. Protecting the environment helps preserve our planet for future generations."
+                android:textSize="16sp"
+                android:lineSpacingExtra="5dp"
+                android:justificationMode="inter_word"
+                android:textColor="@color/quadrant_text"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            android:padding="16dp"
+            android:background="@color/quadrant_two">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Space Exploration"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="@color/quadrant_text"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="Space is a vast universe filled with stars, planets, and galaxies. Scientists continue exploring it to discover new mysteries."
+                android:textSize="16sp"
+                android:lineSpacingExtra="5dp"
+                android:justificationMode="inter_word"
+                android:textColor="@color/quadrant_text"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            android:padding="16dp"
+            android:background="@color/quadrant_one">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Healthy Lifestyle"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="@color/quadrant_text"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="A healthy lifestyle includes regular exercise, balanced nutrition, and enough sleep. Small daily habits can improve our physical and mental well-being."
+                android:textSize="16sp"
+                android:lineSpacingExtra="5dp"
+                android:justificationMode="inter_word"
+                android:textColor="@color/quadrant_text"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

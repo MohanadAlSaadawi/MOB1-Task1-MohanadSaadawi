@@ -1,0 +1,5 @@
+<resources>
+    <color name="article_background">#171825</color>
+    <color name="article_title">#E9D8FF</color>
+    <color name="article_text">#E2DFE9</color>
+</resources>
